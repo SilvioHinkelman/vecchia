@@ -1,0 +1,39 @@
+:root {
+  --green: #009246;
+  --white:	#ffffff;
+  --red:#ce2b37;
+  --text:#152231;
+}
+
+.App {
+  display: grid;
+  min-height: 100vh;
+ 
+}
+
+.App-header {
+display: flex;
+justify-content: center;
+}
+
+.App-header > * {
+  height: 50px;
+  padding: 20px;
+  color: var(--green);
+}
+
+.App-header > a :visited{
+  height: 50px;
+  padding: 20px;
+  color: var(--red);
+  
+}
+
+.logo {
+  height: 150px;
+  border-radius: ;
+}
+
+h1 {
+  color: var(--text);
+}
